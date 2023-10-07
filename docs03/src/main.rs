@@ -1,19 +1,21 @@
-mod main1;
-mod main3_1;
-mod main3_2;
+
+mod let_mut;
+mod data_types;
+mod function;
 
 fn main() {
     plus_test();
-    main1::main1();
-    main3_1::main();
-    main3_1::main1();
-    main3_1::main2();
+    let_mut::main();
+    let_mut::main1();
+    let_mut::main2();
     
     // main3_2::boolean();
     // main3_2:: char();
-    main3_2::main1();
-    main3_2::tuple2();
-    main3_2::array();
+    data_types::main1();
+    data_types::tuple2();
+    data_types::array();
+
+    function::main();
 }
 
 fn plus_test() {

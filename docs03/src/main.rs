@@ -2,20 +2,22 @@
 mod let_mut;
 mod data_types;
 mod function;
+mod control;
+
 
 fn main() {
     plus_test();
     let_mut::main();
     let_mut::main1();
     let_mut::main2();
-    
-    // main3_2::boolean();
-    // main3_2:: char();
+
     data_types::main1();
     data_types::tuple2();
     data_types::array();
 
     function::main();
+    
+    control::main();
 }
 
 fn plus_test() {

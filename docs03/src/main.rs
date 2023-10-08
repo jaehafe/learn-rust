@@ -8,7 +8,9 @@ mod ownership_1;
 mod ownership_2;
 mod references_borrowing;
 mod slices;
+mod program_using_structs;
 
+mod structure;
 
 fn main() {
     plus_test();
@@ -30,6 +32,9 @@ fn main() {
 
     references_borrowing::main();
     slices::main();
+
+    structure::main();
+    program_using_structs::main();
 }
 
 fn plus_test() {

@@ -13,6 +13,7 @@ mod method_syntax;
 mod structure;
 mod defining_enum;
 mod match_control;
+mod if_let;
 
 fn main() {
     plus_test();
@@ -41,6 +42,7 @@ fn main() {
 
     defining_enum::main();
     match_control::main();
+    if_let::main();
 }
 
 fn plus_test() {

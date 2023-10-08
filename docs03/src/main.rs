@@ -3,6 +3,7 @@ mod let_mut;
 mod data_types;
 mod function;
 mod control;
+mod ownership;
 
 
 fn main() {
@@ -18,6 +19,8 @@ fn main() {
     function::main();
     
     control::main();
+
+    ownership::main();
 }
 
 fn plus_test() {

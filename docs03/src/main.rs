@@ -6,6 +6,7 @@ mod control;
 mod ownership;
 mod ownership_1;
 mod ownership_2;
+mod references_borrowing;
 
 
 fn main() {
@@ -25,6 +26,8 @@ fn main() {
     ownership::main();
     ownership_1::main();
     ownership_2::main();
+
+    references_borrowing::main();
 }
 
 fn plus_test() {

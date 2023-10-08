@@ -12,6 +12,7 @@ mod program_using_structs;
 mod method_syntax;
 mod structure;
 mod defining_enum;
+mod match_control;
 
 fn main() {
     plus_test();
@@ -39,6 +40,7 @@ fn main() {
     method_syntax::main();
 
     defining_enum::main();
+    match_control::main();
 }
 
 fn plus_test() {

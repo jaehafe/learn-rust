@@ -7,6 +7,7 @@ mod ownership;
 mod ownership_1;
 mod ownership_2;
 mod references_borrowing;
+mod slices;
 
 
 fn main() {
@@ -28,6 +29,7 @@ fn main() {
     ownership_2::main();
 
     references_borrowing::main();
+    slices::main();
 }
 
 fn plus_test() {

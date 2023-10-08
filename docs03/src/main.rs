@@ -4,6 +4,8 @@ mod data_types;
 mod function;
 mod control;
 mod ownership;
+mod ownership_1;
+mod ownership_2;
 
 
 fn main() {
@@ -21,6 +23,8 @@ fn main() {
     control::main();
 
     ownership::main();
+    ownership_1::main();
+    ownership_2::main();
 }
 
 fn plus_test() {

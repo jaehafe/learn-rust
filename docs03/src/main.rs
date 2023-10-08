@@ -9,7 +9,7 @@ mod ownership_2;
 mod references_borrowing;
 mod slices;
 mod program_using_structs;
-
+mod method_syntax;
 mod structure;
 
 fn main() {
@@ -35,6 +35,7 @@ fn main() {
 
     structure::main();
     program_using_structs::main();
+    method_syntax::main();
 }
 
 fn plus_test() {

@@ -11,6 +11,7 @@ mod slices;
 mod program_using_structs;
 mod method_syntax;
 mod structure;
+mod defining_enum;
 
 fn main() {
     plus_test();
@@ -36,6 +37,8 @@ fn main() {
     structure::main();
     program_using_structs::main();
     method_syntax::main();
+
+    defining_enum::main();
 }
 
 fn plus_test() {
